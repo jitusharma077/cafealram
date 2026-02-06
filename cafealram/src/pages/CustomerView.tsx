@@ -4,7 +4,7 @@ import { useApp } from '../context/AppContext';
 import { RequestType } from '../types';
 import { GlassWater, CreditCard, User, Brush, AlertCircle, CheckCircle, Clock } from 'lucide-react';
 import clsx from 'clsx';
-import { Link } from 'react-router-dom';
+
 
 export default function CustomerView() {
     const { restaurantId, tableId } = useParams<{ restaurantId: string; tableId: string }>();

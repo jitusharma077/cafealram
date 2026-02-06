@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
 import CustomerView from './pages/CustomerView';
 import StaffLogin from './pages/StaffLogin';
