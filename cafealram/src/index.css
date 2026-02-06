@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .btn-bounce {
+    @apply active:scale-95 transition-transform;
+  }
+}
